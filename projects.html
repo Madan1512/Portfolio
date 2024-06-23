@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Portfoliot</title>
+    <link rel="icon" type="image/x-icon" href="./icons/nav-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html" class="nav-icon"><img src="./icons/nav-icon.png" alt="icon"></a>
+            <a href="index.html">Home</a>
+            <!-- <a href="#">About Me</a> -->
+            <a class="active" href="projects.html">Projects</a>
+            <a href="Skills_page.html">Skills</a>
+            <a href="Education.html">Education</a>
+            <div class="contact-icon">
+
+                <a href="https://github.com/Madan1512"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/madan-parameswaran-00853b234/"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="#"><i class="fab fa-envelope"></i></a> -->
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+
+    <div class="container">
+        <div class="projects-section">
+            <div class="project-banner">
+                <div class="project-content">
+                    <h2>Driver Drowsiness Detection</h2>
+                    <p>The UTA Real-Life Drowsiness Dataset is used to train the model. Videos are converted into frames
+                        using the Open Computer Vision Library, and frames are annotated using the RoboFlow tool. The
+                        YOLOv8 model is used to train and build the Driver Drowsiness Model, which detects whether a
+                        driver is drowsy, sleepy, or awake. The model achieves accuracies of 91%, 86%, and 96% for each
+                        label, respectively.</p>
+                </div>
+            </div>
+            <div class="project-banner">
+                <div class="project-content">
+                    <h2>Road Traffic Accident Severity Prediction</h2>
+                    <p>The Road Traffic Accident (RTA) Dataset is used to train the model. The dataset contains class
+                        labels indicating the severity of injuries: slight injury, serious injury, and fatal injury.
+                        Numpy, Pandas, and Scikit-Learn libraries are used to import the dataset, perform feature
+                        extraction, and train various machine learning algorithms. The algorithms used include Decision
+                        Tree Classifier, Random Forest Classifier, AdaBoost Classifier, Support Vector Machine, and
+                        Multinomial Naive Bayes. The Support Vector Machine achieved the highest accuracy of 96%.</p>
+                </div>
+            </div>
+            <div class="project-banner">
+                <div class="project-content">
+                    <h2>Weather Prediction</h2>
+                    <p>The Seattle Weather Dataset is used to train the model, containing four class labels: sun, rain,
+                        drizzle, and snow. Five machine learning algorithms are used for prediction: Decision Tree
+                        Classifier, Random Forest Classifier, K-Nearest Neighbor (KNN) Classifier, Logistic Regression,
+                        and Extreme Gradient Boosting Classifier (XGBoost). KNN and XGBoost achieved maximum accuracies
+                        of 98.6% and 97%, respectively.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="fit-container">
+            <div>
+                <i class="fab fa-github"></i>
+                <p>Git Hub</p>
+                <p><a href="https://github.com/Madan1512">Madan1512</a></p> <!-- Add username here -->
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <p>Email</p>
+                <p>jpmadan2003@gmail.com</p> <!-- Add email here -->
+            </div>
+            <div>
+                <i class="fab fa-linkedin"></i>
+                <p>LinkedIn</p>
+                <p><a href="https://www.linkedin.com/in/madan-parameswaran-00853b234/">Madan Parameswaran</a></p>
+                <!-- Add LinkedIn profile URL here -->
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Address</p>
+                <p>Karur, Tamil Nadu</p> <!-- Add address here -->
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* .skills-section {
+    margin-bottom: 3px;
+} */
+.banner {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.banner img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.banner h3 {
+    margin: 0;
+    color: #333;    
+}
+header {
+    background-color: #a2a2a2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
